@@ -5125,16 +5125,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@simonsmith/cypress-image-snapshot@npm:9.1.0":
-  version: 9.1.0
-  resolution: "@simonsmith/cypress-image-snapshot@npm:9.1.0"
+"@simonsmith/cypress-image-snapshot@npm:10.0.2":
+  version: 10.0.2
+  resolution: "@simonsmith/cypress-image-snapshot@npm:10.0.2"
   dependencies:
-    "@types/jest-image-snapshot": ^6.1.0
+    "@types/jest-image-snapshot": ^6.4.0
     chalk: ^4.1.2
-    jest-image-snapshot: ^6.1.0
+    jest-image-snapshot: ^6.5.1
   peerDependencies:
-    cypress: ">10.0.0"
-  checksum: cb81eb96f0dbe29627f3bf555b3fadb16fbbcc276c0f682bb3800261d3287093eda2ce0a13778ef73e9ee052ae0a6cb2c46cee3640d4145f22ebed1e8fc2b56d
+    cypress: ">13.0.0"
+  checksum: 8c16b50f1bb6eb8471e672bf6dd47bf906a802b8d0dcdc63bacd280684c49c131a2eddf2b03c4951fb500bc228c16c281c19708b6d559294a405d105584449aa
   languageName: node
   linkType: hard
 
@@ -5651,7 +5651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest-image-snapshot@npm:^6.1.0":
+"@types/jest-image-snapshot@npm:^6.4.0":
   version: 6.4.0
   resolution: "@types/jest-image-snapshot@npm:6.4.0"
   dependencies:
@@ -12329,9 +12329,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-image-snapshot@npm:^6.1.0":
-  version: 6.4.0
-  resolution: "jest-image-snapshot@npm:6.4.0"
+"jest-image-snapshot@npm:^6.5.1":
+  version: 6.5.1
+  resolution: "jest-image-snapshot@npm:6.5.1"
   dependencies:
     chalk: ^4.0.0
     get-stdin: ^5.0.1
@@ -12339,14 +12339,13 @@ __metadata:
     lodash: ^4.17.4
     pixelmatch: ^5.1.0
     pngjs: ^3.4.0
-    rimraf: ^2.6.2
     ssim.js: ^3.1.1
   peerDependencies:
     jest: ">=20 <=29"
   peerDependenciesMeta:
     jest:
       optional: true
-  checksum: f3b8a0cbba6e4bd4c19080e8cb807b4dd03e60d43bc69e0bf5898c09dbbb0ee812c04ad66d027ee64121f169bb5ef0cd81d5903efd2772e085e619aa6415676b
+  checksum: 12d0d313655ce5de402654cdd4c419ff08e23b6c9a8567b2c891372f24d6c8cf7d7636cee5fa4758d7aef64556c75dd618ccaf754722abe69b762f299e374f38
   languageName: node
   linkType: hard
 
@@ -16657,7 +16656,7 @@ __metadata:
     "@commitlint/config-conventional": 19.6.0
     "@react-three/fiber": ~9.1.2
     "@remix-run/dev": 2.15.2
-    "@simonsmith/cypress-image-snapshot": 9.1.0
+    "@simonsmith/cypress-image-snapshot": 10.0.2
     "@swc/core": 1.10.4
     "@swc/jest": 0.2.37
     "@testing-library/cypress": 10.0.2
@@ -17324,17 +17323,6 @@ __metadata:
   version: 1.4.1
   resolution: "rfdc@npm:1.4.1"
   checksum: 3b05bd55062c1d78aaabfcea43840cdf7e12099968f368e9a4c3936beb744adb41cbdb315eac6d4d8c6623005d6f87fdf16d8a10e1ff3722e84afea7281c8d13
-  languageName: node
-  linkType: hard
-
-"rimraf@npm:^2.6.2":
-  version: 2.7.1
-  resolution: "rimraf@npm:2.7.1"
-  dependencies:
-    glob: ^7.1.3
-  bin:
-    rimraf: ./bin.js
-  checksum: cdc7f6eacb17927f2a075117a823e1c5951792c6498ebcce81ca8203454a811d4cf8900314154d3259bb8f0b42ab17f67396a8694a54cae3283326e57ad250cd
   languageName: node
   linkType: hard
 
